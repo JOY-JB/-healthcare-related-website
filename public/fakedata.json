@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "service_name": "CROSSFIT TRAINING",
+        "img": "https://technext.github.io/energym/images/s-1.jpg",
+        "total_joined": 78,
+        "description": "CrossFit is a lifestyle characterized by safe. Our CrossFit trainer is Michael Smith.",
+        "price": 600
+    },
+    {
+        "id": 2,
+        "service_name": "FITNESS",
+        "img": "https://technext.github.io/energym/images/s-2.jpg",
+        "total_joined": 181,
+        "description": "Fitness is defined as being in good physical shape or being suitable for a specific task or purpose. Our Fitness trainer is Jessica Black.",
+        "price": 380
+    },
+    {
+        "id": 3,
+        "service_name": "DYNAMIC STRENGTH TRAINING",
+        "img": "https://technext.github.io/energym/images/s-3.jpg",
+        "total_joined": 110,
+        "description": "This exercise requires your muscle and joints to move in order to be executed. Our Dynamic Strength Training trainer is James Brown.",
+        "price": 100
+    },
+    {
+        "id": 4,
+        "service_name": "HEALTH",
+        "img": "https://technext.github.io/energym/images/s-4.jpg",
+        "total_joined": 80,
+        "description": "Regular exercise, balanced nutrition, and adequate rest all contribute to good health. Our Health trainer is Michael.",
+        "price": 300
+    },
+    {
+        "id": 5,
+        "service_name": "WORKOUT",
+        "img": "https://technext.github.io/energym/images/s-5.jpg",
+        "total_joined": 1,
+        "description": "Working out at a health club, swimming, cycling, running, and sports, like golf and tennis, are all forms of exercise. Our lead Workout trainer is James Brown.",
+        "price": 500
+    },
+    {
+        "id": 6,
+        "service_name": "STRATEGIES",
+        "img": "https://technext.github.io/energym/images/s-6.jpg",
+        "total_joined": 54,
+        "description": "Strategy is an action that managers take to attain one or more of the organization's goals. Our STRATEGIES trainer is James Brown.",
+        "price": 600
+    }
+]
