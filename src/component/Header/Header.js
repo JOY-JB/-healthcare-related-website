@@ -20,7 +20,7 @@ const Header = () => {
                     <Navbar.Collapse className="d-flex justify-content-between" id="responsive-navbar-nav">
                         <Nav>
                             <Nav.Link as={HashLink} to="/home">Home</Nav.Link>
-                            <Nav.Link as={HashLink} to="home/#services">Services</Nav.Link>
+                            <Nav.Link as={HashLink} to="home#services">Services</Nav.Link>
                         </Nav>
                         <div className="d-flex">
                             <Navbar.Text>

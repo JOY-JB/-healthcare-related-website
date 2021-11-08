@@ -16,8 +16,8 @@ const Service = ({ service }) => {
                             <Card.Text> <h5> Total joined : {total_joined}</h5></Card.Text>
                             <Card.Text><h5>Price : ${price}</h5></Card.Text>
                         </div>
-                        <Link to={`/services/${id}`} className="mt-auto">
-                            <button className="btn btn-secondary text-white">Learn More</button>
+                        <Link to={`/joinclass/${id}`} className="mt-auto">
+                            <button className="btn btn-secondary text-white">Join Now</button>
                         </Link>
                     </Card.Body>
                 </Card>

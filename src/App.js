@@ -5,14 +5,15 @@ import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import Login from './component/Login/Login';
 import NotFound from './component/NotFound/NotFound';
-import Services from './component/services/Services';
+import JoinClass from './component/JoinClass/JoinClass';
 import Register from './component/Register/Register';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './component/Login/PrivateRoute/PrivateRoute';
+import Footer from './component/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{ height: "100vh" }} className="App d-flex flex-column">
       <AuthProvider>
         <BrowserRouter>
           <Header></Header>
@@ -26,8 +27,8 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            <PrivateRoute path="/services/:serviceId">
-              <Services></Services>
+            <PrivateRoute path="/joinclass/:classId">
+              <JoinClass></JoinClass>
             </PrivateRoute>
             <Route path="/register">
               <Register></Register>
@@ -36,6 +37,7 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>
     </div>
